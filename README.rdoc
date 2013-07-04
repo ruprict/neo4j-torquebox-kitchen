@@ -1,0 +1,4 @@
+
+A reference Chef recipe for deploying a server with Torquebox. 
+
+http://janitor.se/blog/2013/07/04/easier-neo4j-dot-rb-deployments-with-chef-plus-capistrano-plus-torquebox/
