@@ -1,0 +1,11 @@
+upstream torquebox {
+    server <%= @server_name %>:8080;
+}
+
+server {
+  listen 80;
+  server_name    "<%= @server_name %>";
+  location / {
+    proxy_pass http://torquebox;
+  }
+}

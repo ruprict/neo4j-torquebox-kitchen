@@ -1,0 +1,14 @@
+{   
+  "new_relic": { 
+    "app_name" : "neo4j-demo-app.com"
+  },
+  "java": { "jdk_version" : "7" },
+  "server_name": "neo4j-demo-app.com",
+  "environment" : "production",
+  "run_list": [
+    "recipe[neo4j-example::requirements]", 
+    "recipe[neo4j-example::default]",
+    "recipe[neo4j-example::torquebox]"
+    ]
+  
+}

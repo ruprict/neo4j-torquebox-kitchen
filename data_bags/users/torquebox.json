@@ -1,0 +1,17 @@
+{
+    "id": "torquebox",
+    "password": "$1$K8oeug5R$XuO6heLzykP7yHX5y5AlG0",
+    "home": "/opt/torquebox",
+    "groups": [
+        "deployer"
+    ],
+    "ssh_keys": [
+         "ssh-rsa +n50XM9ujvY7UKY0XdXrkuVCZC0Xy8zeFHYFaCGhuO2bl7myQ0AdTfAmUKCqZ4RRnU1qr9yIsgn/9uRY9qCApVrFoXiGjMJfhVl3f+NVRGqUaOMjtfST0wo43wFpOV8hy3+wmzdU+f8UfTNf18W++az7pi2s5A/NSIBjDXcVPSRyvpo68rvhuZLdBdiABtHKJXA5uoDDhAdn foooo@gmail.com"
+    ],
+    "homesick_castles": [
+        {
+            "name": "dotfiles",
+            "source": "git://github.com/cfitz/dotfiles.git"
+        }
+    ]
+}

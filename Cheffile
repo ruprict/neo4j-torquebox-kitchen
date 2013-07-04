@@ -1,0 +1,10 @@
+site 'http://community.opscode.com/api/v1'
+
+cookbook 'openssh'
+cookbook 'user'
+cookbook 'simple_iptables'
+cookbook 'homesick', :git => "git://github.com/cfitz/chef-homesick.git"
+cookbook 'fail2ban'
+cookbook 'apt'
+cookbook 'nginx'
+cookbook 'java'

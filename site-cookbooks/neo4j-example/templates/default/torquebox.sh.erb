@@ -1,0 +1,16 @@
+export JBOSS_USER=<%=@jboss_user%>
+export TORQUEBOX_HOME=<%=@torquebox_home%>
+export JBOSS_PIDFILE=<%=@jboss_pidfile%>
+export JBOSS_CONSOLE_LOG=<%=@jboss_console_log%>
+export JBOSS_CONFIG=<%=@jboss_config%>
+export JRUBY_OPTS=<%=@jruby_opts%>
+export JRUBY_HOME=$TORQUEBOX_HOME/jruby
+export JBOSS_HOME=$TORQUEBOX_HOME/jboss
+
+export PATH=$JBOSS_HOME/bin:$JRUBY_HOME/bin:$PATH
+
+<% if @java_environment_file %>
+. <%=@java_environment_file%>
+<% end %> 
+
+export RACK_ENV=production

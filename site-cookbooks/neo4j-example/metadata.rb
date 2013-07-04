@@ -1,0 +1,18 @@
+name             'catalog'
+maintainer       'YOUR_COMPANY_NAME'
+maintainer_email 'YOUR_EMAIL'
+license          'All rights reserved'
+description      'Installs/Configures catalog'
+long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
+version          '0.1.0'
+
+depends 'apt'
+depends 'user', '~> 0.3.0'
+depends 'homesick', '~> 0.3.2'
+depends 'openssh', '~> 1.1.4'
+depends 'simple_iptables', '~> 0.2.4'
+depends 'user'
+depends 'java', '1.10.0'
+depends 'fail2ban'
+depends 'java'
+depends 'nginx'
