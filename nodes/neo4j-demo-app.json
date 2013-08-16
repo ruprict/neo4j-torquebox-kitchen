@@ -1,9 +1,9 @@
 {   
   "new_relic": { 
-    "app_name" : "neo4j-demo-app.com"
+    "app_name" : "registrar.kyck-staging.com"
   },
   "java": { "jdk_version" : "7" },
-  "server_name": "neo4j-demo-app.com",
+  "server_name": "kyck-testing-1.cloudapp.net",
   "environment" : "production",
   "run_list": [
     "recipe[neo4j-example::requirements]", 

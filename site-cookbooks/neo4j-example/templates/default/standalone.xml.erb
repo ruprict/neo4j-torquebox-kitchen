@@ -456,10 +456,10 @@
     </profile>
     <interfaces>
         <interface name='management'>
-            <inet-address value='${jboss.bind.address.management:<%=@node_ipaddress%>}'/>
+            <inet-address value='${jboss.bind.address.management:localhost}'/>
         </interface>
         <interface name='public'>
-            <inet-address value='${jboss.bind.address:<%=@node_ipaddress%>}'/>
+            <inet-address value='${jboss.bind.address:localhost}'/>
         </interface>
         <!-- TODO - only show this if the jacorb subsystem is added  -->
         <interface name='unsecure'>
@@ -467,7 +467,7 @@
               ~  Used for IIOP sockets in the standard configuration.
               ~                  To secure JacORB you need to setup SSL 
               -->
-            <inet-address value='${jboss.bind.address.unsecure:<%=@node_ipaddress%>}'/>
+            <inet-address value='${jboss.bind.address.unsecure:localhost}'/>
         </interface>
     </interfaces>
     <socket-binding-group name='standard-sockets' default-interface='public' port-offset='${jboss.socket.binding.port-offset:0}'>

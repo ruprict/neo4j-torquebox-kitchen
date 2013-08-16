@@ -1,3 +1,6 @@
 /cookbooks/
 /tmp/librarian/
 .chef/
+
+*.swp
+*.swo

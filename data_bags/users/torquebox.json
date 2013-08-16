@@ -1,17 +1,12 @@
 {
     "id": "torquebox",
-    "password": "$1$K8oeug5R$XuO6heLzykP7yHX5y5AlG0",
+    "password": "$1$5W8gjjfl$1AwHq33jY7hHnxV1aE3Su0",
     "home": "/opt/torquebox",
     "groups": [
         "deployer"
     ],
     "ssh_keys": [
-         "ssh-rsa +n50XM9ujvY7UKY0XdXrkuVCZC0Xy8zeFHYFaCGhuO2bl7myQ0AdTfAmUKCqZ4RRnU1qr9yIsgn/9uRY9qCApVrFoXiGjMJfhVl3f+NVRGqUaOMjtfST0wo43wFpOV8hy3+wmzdU+f8UfTNf18W++az7pi2s5A/NSIBjDXcVPSRyvpo68rvhuZLdBdiABtHKJXA5uoDDhAdn foooo@gmail.com"
-    ],
-    "homesick_castles": [
-        {
-            "name": "dotfiles",
-            "source": "git://github.com/cfitz/dotfiles.git"
-        }
-    ]
+
+      "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAxxuL4/uoWqs8UKwO993dKFxhWXCJw/JjBLOQ1xcUzphKSpFZBmZ6h84V83Q3+6jBFfjn5zb2Gb1HKVFwIbIkdChuQlTmxuhEF42I1oePVDcdl9eN73/OKou0NUNRUHCOut3YpUSJZquuMDhERKPjsQAzn9e47ksrZNTUbv2Vj69dNs2IKp2YmvKmQ1e7HUMRs5TxcOMf07EG8Btt5LcbmDf/fheSTGWdUEx6rUmButUvLO9LGGTF0IbQ4ScZx6JQcz+U7i4LbywZobF81Z/36mG5wetVvD2GBvhA6nnegAxd7GzK11ADXBKqg/xsbmnBpUWBkywAhkpDC1ejCqT8PQ== ggoodrich@esi-gegmac.local"
+      ]
 }
